@@ -1,0 +1,111 @@
+/* This is the style code for Tea Cozy Website */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+
+/* Header Styles */
+header {
+  display: flex;
+  border-bottom: solid 1px seashell;
+  align-items: center;
+  height: 69px;
+  justify-content: space-between;
+}
+.logo {
+  padding-left: 10px;
+  display: flex;
+}
+.logo img {
+    width: auto;
+    height: 50px;
+}
+nav a {
+  color: seashell;
+  padding-right: 20px;
+  text-decoration: underline;
+}
+
+/* Mission Section */
+.centerbox {
+  display: flex;
+  justify-content: center;
+}
+.missioncontainer {
+  height: 700px;
+  width: 1200px;
+  background-image: url("../images/img-mission-background.jpg");
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.missiontext {
+  background-color: black;
+  flex-grow: 1;
+}
+
+/* TEA Section */
+.teacontainer {
+  width: 1000px;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+}
+.pictory {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.block {
+  width: 300px;
+  padding: 15px;
+}
+.pic {
+  height: 200px;
+}
+.teacontainer h4 {
+  margin-top: 10px;
+}
+
+/* Locations Section */
+.locationscontainer {
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  text-align: center;
+}
+.locations{
+  display: flex;
+  justify-content: center;
+}
+.localblock {
+  background-color: black;
+  padding: 40px;
+  width: 220px;
+  margin: 0px 20px 0px 20px;
+  opacity: 1;
+}
+.locationscontainer h2 {
+  margin-bottom: 15px;
+}
+
+/* Branding Section */
+.brandbox {
+  text-align: center;
+  height: 200px;
+}
+.brandbox h2 {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+/* Footer Section */
+.footer {
+  text-align: left;
+  padding-left: 20px;
+}
